@@ -20,7 +20,6 @@ app.use('/users', require('./controllers/users'))
 app.use('/authentication', require('./controllers/authentication'))
 
 // Listen for Connections
-const port = process.env.PORT || 5000;
 app.listen(process.env.PORT, () => {
     console.log(`Listening on ${process.env.PORT}`)
 })
