@@ -1,7 +1,6 @@
 {
   "name": "rest-rant",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index",
@@ -27,5 +26,7 @@
     "react-dom": "^16.14.0",
     "sequelize": "^6.6.5",
     "sequelize-cli": "^6.2.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
